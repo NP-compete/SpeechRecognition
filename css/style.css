@@ -1,0 +1,66 @@
+html {
+  font-size: 10px;
+}
+
+body {
+   background: linear-gradient(90deg, #d0d0d0, #fab397);
+  font-family: 'Signika', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.header {
+  color: #636262;
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 0;
+  font-size: 3em;
+}
+
+.header__desc {
+  font-size: 1.2em;
+}
+
+.header__easteregg {
+  display: block;
+  font-style: italic;
+}
+
+.easteregg__title {
+  color: #fab397;
+  text-align: center;
+}
+
+.easteregg__img {
+  width: 100%;
+}
+
+
+.words {
+  max-width:500px;
+  margin:50px auto;
+  background:white;
+  border-radius:5px;
+  box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+  padding:1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height:3rem;
+}
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
